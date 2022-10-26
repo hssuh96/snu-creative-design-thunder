@@ -1,8 +1,9 @@
 import torch
 import torch.nn.functional as F
+from torch.utils.data import DataLoader
 
 @torch.no_grad()
-def TestLasttoken(model, tokenizer, loader):
+def _TestLasttoken(model, tokenizer, loader):
     device = model.device
     model.eval()
     total_num = 0
@@ -30,8 +31,35 @@ def TestLasttoken(model, tokenizer, loader):
         total_num+=len(texts)
 
     right_num=right_num.item()
-    print(right_num,"/", total_num, right_num/total_num)
     ppl/=total_num
     perplexity = torch.exp(ppl).item()
-    print(perplexity)
     return (right_num/total_num, perplexity)
+
+def TestLasttoken(model, tokenizer, dataloader, verbose = True, comment = None, path = None):
+    acc, ppl = _TestLasttoken(model, tokenizer, dataloader)
+    result_text = (comment if comment else "") + "\nACC: "+str(acc)+"\nPPL: "+str(ppl)+"\n\n"
+    if verbose:
+        print(result_text, end="")
+    if path:
+        with open(path, 'a') as fp:
+            fp.writelines(result_text)
+
+
+def Lambada(batch_size = 16):
+    from datasets import load_dataset
+    lambada_dataset = load_dataset("lambada", split="test")
+    lines = []
+    for data in lambada_dataset:
+        lines.append(data['text'])
+    loader = DataLoader(lines, batch_size=batch_size, shuffle=False)
+    return loader
+
+def ReadJson(path, batch_size=16):
+    import jsonlines
+    lines = []
+    with jsonlines.open(path) as reader:
+        for obj in reader:
+            lines.append(obj['text'])
+    loader = DataLoader(lines, batch_size=batch_size, shuffle=False)
+    return loader
+

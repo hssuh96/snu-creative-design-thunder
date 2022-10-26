@@ -1,0 +1,48 @@
+8-bit Fake Quantized GPT-2 small dataset lambada
+ACC: 0.6062487871143023
+PPL: 11.536901473999023
+
+8-bit Fake Quantized GPT-2 small openai lambada
+ACC: 0.46244905880069864
+PPL: 17.8438777923584
+
+6-bit Fake Quantized GPT-2 small dataset lambada
+ACC: 0.6050844168445566
+PPL: 11.953639030456543
+
+6-bit Fake Quantized GPT-2 small openai lambada
+ACC: 0.4655540461866874
+PPL: 17.59716033935547
+
+4-bit Fake Quantized GPT-2 small dataset lambada
+ACC: 0.05550164952454881
+PPL: 6168.953125
+
+4-bit Fake Quantized GPT-2 small openai lambada
+ACC: 0.041723267999223754
+PPL: 13197.03125
+
+8-bit Fake Quantized GPT-2 xl dataset lambada
+ACC: 0.7135649136425384
+PPL: 4.650097370147705
+
+8-bit Fake Quantized GPT-2 xl openai lambada
+ACC: 0.6122647001746555
+PPL: 6.1830949783325195
+
+6-bit Fake Quantized GPT-2 xl dataset lambada
+ACC: 0.7116242965262953
+PPL: 4.688064098358154
+
+6-bit Fake Quantized GPT-2 xl openai lambada
+ACC: 0.6103240830584126
+PPL: 6.262758731842041
+
+4-bit Fake Quantized GPT-2 xl dataset lambada
+ACC: 0.4915583155443431
+PPL: 46.424903869628906
+
+4-bit Fake Quantized GPT-2 xl openai lambada
+ACC: 0.3654182029885504
+PPL: 73.99954986572266
+

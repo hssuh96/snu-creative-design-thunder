@@ -1,0 +1,16 @@
+FP16 GPT-2 small dataset lambada
+ACC: 0.6050844168445566
+PPL: 11.53125
+
+FP16 GPT-2 small openai lambada
+ACC: 0.4628371822239472
+PPL: 17.625
+
+FP16 GPT-2 xl dataset lambada
+ACC: 0.7141470987774112
+PPL: 4.6484375
+
+FP16 GPT-2 xl openai lambada
+ACC: 0.6134290704444013
+PPL: 6.1875
+

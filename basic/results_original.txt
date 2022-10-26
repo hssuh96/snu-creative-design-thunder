@@ -1,0 +1,16 @@
+Original GPT-2 small dataset lambada
+ACC: 0.606054725402678
+PPL: 11.47035026550293
+
+Original GPT-2 small openai lambada
+ACC: 0.46671841645643314
+PPL: 17.557987213134766
+
+Original GPT-2 xl dataset lambada
+ACC: 0.7143411604890355
+PPL: 4.647129535675049
+
+Original GPT-2 xl openai lambada
+ACC: 0.6142053172908986
+PPL: 6.179164886474609
+
