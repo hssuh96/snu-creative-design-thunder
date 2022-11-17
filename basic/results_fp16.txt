@@ -1,0 +1,24 @@
+FP16 GPT-2 small dataset lambada
+ACC: 60.508%
+PPL: 11.531
+Size: 249.350MB
+Time: 8.142s
+
+FP16 GPT-2 small openai lambada
+ACC: 46.284%
+PPL: 17.625
+Size: 249.350MB
+Time: 7.205s
+
+FP16 GPT-2 xl dataset lambada
+ACC: 71.415%
+PPL: 4.648
+Size: 3018.908MB
+Time: 47.202s
+
+FP16 GPT-2 xl openai lambada
+ACC: 61.343%
+PPL: 6.188
+Size: 3018.908MB
+Time: 48.202s
+
