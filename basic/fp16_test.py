@@ -8,7 +8,7 @@ from datasets import load_dataset
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
-device = "cuda" if torch.cuda.is_available() else "cpu"
+device = "cuda:2" if torch.cuda.is_available() else "cpu"
 print(f"Using {device} device")
 
 path = "results_fp16.txt"

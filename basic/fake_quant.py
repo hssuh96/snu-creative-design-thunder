@@ -9,6 +9,7 @@ def quantize(x, k):
 
 def fake_quantize(model, k):
     model_quant = copy.deepcopy(model)
+
     for name, param in model_quant.named_parameters():
         if "c_attn.weight" in name or "c_proj.weight" in name or "c_fc.weight" in name:
             param.data=quantize(param.data, k)

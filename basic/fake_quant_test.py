@@ -18,6 +18,7 @@ openai_lambada = ReadJson("/home/cid2/dataset/lambada_test.jsonl", batch_size=32
 
 tokenizer_small = GPT2Tokenizer.from_pretrained('gpt2')
 gpt2_small_model = GPT2LMHeadModel.from_pretrained('gpt2').to(device)
+gpt2_small_model.half()
 
 for k in (8, 6, 4):
     gpt2_fake_quant_model = fake_quantize(gpt2_small_model, k)
@@ -26,8 +27,8 @@ for k in (8, 6, 4):
 
 tokenizer_xl = GPT2Tokenizer.from_pretrained('gpt2-xl')
 gpt2_xl_model = GPT2LMHeadModel.from_pretrained('gpt2-xl').to(device)
+gpt2_xl_model.half()
 for k in (8, 6, 4):
     gpt2_fake_quant_model = fake_quantize(gpt2_xl_model, k).to("cuda:1")
     TestLasttoken(gpt2_fake_quant_model, tokenizer_xl, dataset_lambada, verbose = False, comment = str(k)+"-bit Fake Quantized GPT-2 xl dataset lambada", path = path)
     TestLasttoken(gpt2_fake_quant_model, tokenizer_xl, openai_lambada, verbose = False, comment = str(k)+"-bit Fake Quantized GPT-2 xl openai lambada", path = path)
-
