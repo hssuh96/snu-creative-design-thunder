@@ -22,3 +22,27 @@ PPL: 6.179
 Size: 5989.815MB
 Time: 129.263s
 
+Original GPT-2 small dataset lambada
+ACC: 60.605%
+PPL: 11.470
+Size: 633.938MB
+Time: 13.832s
+
+Original GPT-2 small openai lambada
+ACC: 46.672%
+PPL: 17.558
+Size: 633.938MB
+Time: 13.108s
+
+Original GPT-2 xl dataset lambada
+ACC: 71.434%
+PPL: 4.647
+Size: 6296.560MB
+Time: 124.832s
+
+Original GPT-2 xl openai lambada
+ACC: 61.421%
+PPL: 6.179
+Size: 6296.560MB
+Time: 128.352s
+
