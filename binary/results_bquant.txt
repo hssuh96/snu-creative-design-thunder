@@ -1,0 +1,96 @@
+8-bit greedy supnorm binary Quantized GPT-2 small openai lambada
+ACC: 46.012%
+PPL: 17.906
+Size: 810.234MB
+Time: 21.847s
+
+4-bit greedy supnorm binary Quantized GPT-2 small openai lambada
+ACC: 37.667%
+PPL: 51.594
+Size: 810.234MB
+Time: 13.075s
+
+8-bit greedy l2-norm binary Quantized GPT-2 small openai lambada
+ACC: 28.915%
+PPL: inf
+Size: 810.234MB
+Time: 20.423s
+
+4-bit greedy l2-norm binary Quantized GPT-2 small openai lambada
+ACC: 17.621%
+PPL: inf
+Size: 810.234MB
+Time: 13.033s
+
+8-bit greedy supnorm binary Quantizedi simple2 GPT-2 small openai lambada
+ACC: 45.993%
+PPL: 17.906
+Size: 243.234MB
+Time: 13.470s
+
+4-bit greedy supnorm binary Quantized simple2 GPT-2 small openai lambada
+ACC: 37.648%
+PPL: 51.594
+Size: 243.234MB
+Time: 10.422s
+
+8-bit greedy l2-norm binary Quantized simple2 GPT-2 small openai lambada
+ACC: 28.954%
+PPL: inf
+Size: 243.234MB
+Time: 12.820s
+
+4-bit greedy l2-norm binary Quantized simple2 GPT-2 small openai lambada
+ACC: 17.679%
+PPL: inf
+Size: 243.234MB
+Time: 10.435s
+
+8-bit greedy supnorm binary Quantizedi simple2 GPT-2 small openai lambada
+ACC: 45.993%
+PPL: 17.906
+Size: 243.234MB
+Time: 11.953s
+
+4-bit greedy supnorm binary Quantized simple2 GPT-2 small openai lambada
+ACC: 37.648%
+PPL: 51.594
+Size: 243.234MB
+Time: 9.694s
+
+8-bit greedy l2-norm binary Quantized simple2 GPT-2 small openai lambada
+ACC: 28.954%
+PPL: inf
+Size: 243.234MB
+Time: 11.314s
+
+4-bit greedy l2-norm binary Quantized simple2 GPT-2 small openai lambada
+ACC: 17.679%
+PPL: inf
+Size: 243.234MB
+Time: 9.695s
+
+6-bit greedy supnorm binary Quantizedi simple2 GPT-2 small openai lambada
+ACC: 45.624%
+PPL: 18.109
+Size: 222.668MB
+Time: 11.152s
+
+8-bit greedy supnorm binary Quantized simple2 GPT-2 xl openai lambada
+ACC: 61.246%
+PPL: 6.199
+Size: 1776.577MB
+Time: 117.109s
+
+6-bit greedy supnorm binary Quantized simple2 GPT-2 xl openai lambada
+ACC: 60.858%
+PPL: 6.285
+Size: 1776.577MB
+Time: 103.868s
+
+4-bit greedy supnorm binary Quantized simple2 GPT-2 xl openai lambada
+ACC: 49.525%
+PPL: 13.641
+Size: 1776.577MB
+Time: 87.644s
+

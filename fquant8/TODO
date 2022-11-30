@@ -1,3 +1,0 @@
-FakeQuantization 적용한 모델 테스트
-
-layer별, 위치별 다른 비트 수의 quantization 어떻게 구현할 것인가?
