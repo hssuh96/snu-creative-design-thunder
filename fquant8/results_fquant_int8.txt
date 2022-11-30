@@ -1,0 +1,102 @@
+INT8 Fake Quantized GPT-2 small openai lambada
+ACC: 46.361%
+PPL: 17.516
+Size: 242.127MB
+Time: 8.755s
+
+INT8 Fake Quantized GPT-2 small + output linear layer openai lambada
+ACC: 45.003%
+PPL: inf
+Size: 205.414MB
+Time: 7.521s
+
+INT4 Fake Quantized GPT-2 small openai lambada
+ACC: 38.948%
+PPL: 34.438
+Size: 242.127MB
+Time: 7.329s
+
+INT8 Fake Quantized GPT-2 xl openai lambada
+ACC: 61.324%
+PPL: 6.199
+Size: 1767.348MB
+Time: 52.815s
+
+INT8 Fake Quantized GPT-2 xl + output linear layer openai lambada
+ACC: 61.265%
+PPL: 6.199
+Size: 1690.758MB
+Time: 52.365s
+
+INT4 Fake Quantized GPT-2 xl openai lambada
+ACC: 58.316%
+PPL: 7.520
+Size: 1767.348MB
+Time: 52.144s
+
+4-8-8-8 block Fake Quantized GPT-2 small openai lambada
+ACC: 42.422%
+PPL: 22.281
+Size: 242.127MB
+Time: 8.759s
+
+8-4-8-8 block Fake Quantized GPT-2 small openai lambada
+ACC: 46.148%
+PPL: 17.938
+Size: 242.127MB
+Time: 7.355s
+
+8-8-4-8 block Fake Quantized GPT-2 small openai lambada
+ACC: 47.623%
+PPL: 17.484
+Size: 242.127MB
+Time: 7.331s
+
+8-8-8-4 block Fake Quantized GPT-2 small openai lambada
+ACC: 43.082%
+PPL: 22.062
+Size: 242.127MB
+Time: 7.347s
+
+4-8-8-8 Fake Quantized GPT-2 xl openai lambada
+ACC: 61.362%
+PPL: 6.297
+Size: 1767.348MB
+Time: 53.692s
+
+8-4-8-8 Fake Quantized GPT-2 xl openai lambada
+ACC: 61.091%
+PPL: 6.199
+Size: 1767.348MB
+Time: 52.209s
+
+8-8-4-8 Fake Quantized GPT-2 xl openai lambada
+ACC: 60.741%
+PPL: 6.434
+Size: 1767.348MB
+Time: 52.199s
+
+8-8-8-4 Fake Quantized GPT-2 xl openai lambada
+ACC: 59.829%
+PPL: 6.801
+Size: 1767.348MB
+Time: 52.195s
+
+INT4 + 2 block INT8 Fake Quantized GPT-2 small openai lambada
+ACC: 43.043%
+PPL: 26.969
+Size: 242.127MB
+Time: 8.758s
+
+INT4 + 2 block INT8 Fake Quantized GPT-2 xl openai lambada
+ACC: 58.859%
+PPL: 7.375
+Size: 1767.348MB
+Time: 52.829s
+
+INT4 + 4 block INT8 Fake Quantized GPT-2 xl openai lambada
+ACC: 59.111%
+PPL: 7.273
+Size: 1767.348MB
+Time: 52.156s
+
